@@ -4,7 +4,6 @@ import { C1BindingsComponent } from './c1-bindings.component';
 describe('C1BindingsComponent', () => {
   let component: C1BindingsComponent;
   let fixture: ComponentFixture<C1BindingsComponent>;
-  let titleElement: HTMLElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
