@@ -34,7 +34,7 @@ describe('C1BindingsComponent', () => {
     const pizzaBtn: HTMLElement = fixture.nativeElement.querySelector(".pizza-btn");
 
     pizzaBtn.click();         // trigger the click event
-    fixture.detectChanges();  // make Angukar launch change detection routine
+    fixture.detectChanges();  // make Angular launch change detection routine
     expect(titleElement.innerText).toBe("Pizza");
   });
 });
